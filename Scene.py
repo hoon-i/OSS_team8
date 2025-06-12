@@ -43,7 +43,7 @@ class MainMenu(Scene):
         self.quit_button.create_image()
 
         # 음악 저작권 표기
-        self.music_credit = TextDisplay(pygame.Rect(100, 900, 700, 50), "Music: 'Quando a revolução vier' by OVO (Released under CC)", TEXT_COLOUR, 30)
+        self.music_credit = TextDisplay(pygame.Rect(100, 900, 700, 50), "Music: 'None", TEXT_COLOUR, 30)
         self.music_credit.create_image()
 
     def render(self, **kwargs):
