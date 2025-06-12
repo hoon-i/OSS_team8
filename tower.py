@@ -97,7 +97,7 @@ class Bullet:
 
 class SniperTower(Tower):
     name = "Sniper"
-    description = "Long range, high damage"
+    description = "Sniper tower"
     value = 200
     sprite_location = "assets/sniper_tower.png"
 
